@@ -1,0 +1,14 @@
+@value palette: '@/app/styles/vars.module.css';
+@value bg-color from palette;
+
+.header {
+  background-color: bg-color;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 120px;
+  margin-bottom: 120px;
+}

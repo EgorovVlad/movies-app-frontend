@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  flex-shrink: 1;
+}
+
+.icon {
+  margin-top: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+}

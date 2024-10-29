@@ -34,8 +34,10 @@ function Waves() {
       src={vectors}
       quality={100}
       style={{
-        position: 'absolute',
+        position: 'fixed',
         bottom: 0,
+        left: 0,
+        right: 0,
         zIndex: -1,
         objectFit: 'cover',
         width: '100vw',

@@ -1,3 +1,3 @@
-import MoviesPage from './MoviesPage';
+import MoviesPage from '@/pages/movies/List';
 
 export default MoviesPage;
