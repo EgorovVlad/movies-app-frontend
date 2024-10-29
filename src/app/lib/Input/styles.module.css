@@ -1,0 +1,31 @@
+@value palette: '@/app/styles/vars.module.css';
+@value input-color from palette;
+
+.form-field {
+  position: relative;
+  background-color: input-color;
+  border-radius: 10px;
+  height: 45px;
+  padding: 10px 16px;
+}
+
+.form-field > * {
+  background-color: transparent;
+}
+
+.form-field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-field input::placeholder {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}

@@ -1,0 +1,8 @@
+@value palette: './vars.module.css';
+@value bg-color from palette;
+
+.app-container {
+  background-color: bg-color;
+  position: relative;
+  height: 100vh;
+}
