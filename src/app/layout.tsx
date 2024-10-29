@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import Image from "next/image";
+import type { Metadata } from 'next';
+import localFont from 'next/font/local';
+import Image from 'next/image';
 import vectors from '../../public/Vectors-desktop.svg';
 import global from './styles/global.module.css';
 

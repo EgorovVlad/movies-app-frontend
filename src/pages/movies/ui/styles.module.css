@@ -22,3 +22,16 @@
   width: 2rem;
   height: 2rem;
 }
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .icon {
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}

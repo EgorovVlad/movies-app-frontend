@@ -1,6 +1,5 @@
+import type { IMovie } from "@/entities/movie";
+
 export type TMovieCardProps = {
-  title: string;
-  year: string;
-  poster: string;
-  onClick: () => void;
+  movie: IMovie;
 };

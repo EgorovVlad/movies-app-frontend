@@ -1,0 +1,31 @@
+.item {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.poster {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.title {
+  margin-top: 16px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.year {
+  font-weight: 400;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}

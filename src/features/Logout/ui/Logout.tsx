@@ -7,8 +7,8 @@ import styles from './styles.module.css';
 export const Logout = () => {
   return (
     <div className={styles['logout-btn']} role="button" onClick={logout}>
-      <span>Logout</span>
-      <IconLogout />
+      <span className={styles.title}>Logout</span>
+      <IconLogout className={styles.icon} />
     </div>
   );
 };
