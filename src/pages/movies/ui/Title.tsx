@@ -1,14 +1,15 @@
-import NextLink from 'next/link';
-import IconAddCircle from '@/lib/icons/IconAddCircle';
+import type { PropsWithChildren, ReactElement, ReactNode } from 'react';
 import styles from './styles.module.css';
 
-export const Title = () => {
+type TTitleProps = PropsWithChildren & {
+  title: string | ReactElement | ReactNode;
+}
+
+export const Title = (props: TTitleProps) => {
   return (
     <div className={styles.container}>
-      <span className={styles.title}>My movies</span>
-      <NextLink href="movies/new" title="Add a movie" className={styles.link}>
-        <IconAddCircle className={styles.icon} />
-      </NextLink>
+      <span className={styles.title}>{props.title}</span>
+      {props.children}
     </div>
   );
 };

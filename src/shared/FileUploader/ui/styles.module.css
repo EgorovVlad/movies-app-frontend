@@ -1,0 +1,31 @@
+@value palette: '@/app/styles/vars.module.css';
+@value input-color from palette;
+
+.container {
+  background-color: input-color;
+  border-radius: 10px;
+  border: 2px dashed #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.text {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.icon,
+.text {
+  color: #fff;
+}
